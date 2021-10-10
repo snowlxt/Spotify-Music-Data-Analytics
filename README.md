@@ -13,3 +13,4 @@ According to previous research, the popularity of music can be explained by the 
 ## Data Collecting & Feature Engioneering
 ### Data Source - Spotify API
 Spotify Web API offers several sources for developers and analysts to use the data from Spotify music platform from different endpoints.
+In this project, I aimed at figuring out the contribution of each of the features to popularity. Fortunately, Spotify published both the popularity and the features of each song. We were able to acquire information of the albums by searching the endpoints . However, we encountered an obstacle: Spotify only returned 50 results per search, but I have far more than 50 instances as our sample. We figured out one way to resolve this in order to obtain a list for indexing.
