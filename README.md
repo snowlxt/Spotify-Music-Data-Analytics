@@ -9,3 +9,7 @@ According to previous research, the popularity of music can be explained by the 
 * Data Collecting & Feature Engioneering
 * EDA
 * Modelling
+
+## Data Collecting & Feature Engioneering
+### Data Source - Spotify API
+Spotify Web API offers several sources for developers and analysts to use the data from Spotify music platform from different endpoints.
