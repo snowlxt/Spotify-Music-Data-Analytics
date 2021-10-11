@@ -17,6 +17,7 @@ Data collecting steps -
 Features for next step - 
 * Track_Id
 * Popularity
+* Followers
 * Key
 * Mode
 * Time_Signature
