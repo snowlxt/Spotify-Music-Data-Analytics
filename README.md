@@ -11,5 +11,5 @@ According to previous research, the popularity of music can be explained by the 
 * Modelling
 
 ## Data Collecting & Feature Engioneering
-* Data Source - Spotify API
+* Data Source - Spotify API, Billboard Week 200 Albums
 * Data 
