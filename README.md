@@ -12,7 +12,8 @@ According to previous research, the popularity of music can be explained by the 
 
 ## Data Collecting & Feature Engioneering
 Data Source - Spotify API, Billboard Week 200 Albums
-Data
+Data collecting steps - 
+<img width="1014" alt="截屏2021-10-11 上午10 21 03" src="https://user-images.githubusercontent.com/62194058/136806354-d7b041f6-5027-4638-aebd-0736a147cf7a.png">
 
 Album
 *	album id
