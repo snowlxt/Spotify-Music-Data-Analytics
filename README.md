@@ -12,11 +12,22 @@ According to previous research, the popularity of music can be explained by the 
 
 ## Data Collecting & Feature Engioneering
 Data Source - Spotify API, Billboard Week 200 Albums
+Data
 
-Data 
 Album
 *	album id
 *	album name
 *	artist id
 *	artist name
 *	release date
+
+Artist
+*	artist id
+*	artist name
+*	genres
+
+Track
+*	track id
+*	track name
+*	duration_ms
+
