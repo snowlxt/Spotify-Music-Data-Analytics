@@ -33,4 +33,9 @@ According to previous research, the popularity of music can be explained by the 
 **Target variable** - 'popularity'
 Referring to the distribution of the attribute ‘popularity’, there are few songs that report a popularity of over 60, which is only 3 thousand out of over 20 thousand tracks. Therefore, I cut the sample into two bins: tracks with popularity over 60 are classified as popular songs and others as unpopular songs. I labeled the popular songs as 1 and unpopular ones as 0 under the new binary popularity attribute. 
 
+## Sampling
+As with many other classification models, we run into a class imbalance problem. Since there are so many more instances of class 0 than of class 1, the models we train will tend to classify most songs as class 1. Even though this results in an extremely high accuracy, the results are ultimately impractical because most, if not all, of class 1’s are categorized incorrectly. 
+Therefore, I use two methods: 
+* oversampling
+* SMOTE (Synthetic Minority Over-sampling Technique)**
 
