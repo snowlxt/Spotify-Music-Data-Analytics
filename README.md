@@ -11,10 +11,10 @@ According to previous research, the popularity of music can be explained by the 
 * Modelling
 
 ## Data Collecting & Feature Engioneering
-Data Source - Spotify API, Billboard Week 200 Albums
-Data collecting steps - 
+**Data Source** - Spotify API, Billboard Week 200 Albums
+**Data collecting steps** - 
 <img width="1014" alt="截屏2021-10-11 上午10 21 03" src="https://user-images.githubusercontent.com/62194058/136806354-d7b041f6-5027-4638-aebd-0736a147cf7a.png">
-Features for next step - 
+**Features for next step** - 
 * Track_Id
 * Popularity
 * Followers
@@ -30,5 +30,7 @@ Features for next step -
 * Valence
 * Tempo
 
+**Target variable** - 
+Referring to the distribution of the attribute ‘popularity’, there are few songs that report a popularity of over 60, which is only 3 thousand out of over 20 thousand tracks. Therefore, we cut the sample into two bins: tracks with popularity over 60 are classified as popular songs and others as unpopular songs. We labeled the popular songs as 1 and unpopular ones as 0 under the new binary popularity attribute. As with many other classification models, we run into a class imbalance problem. Since there are so many more instances of class 0 than of class 1, the models we train will tend to classify most songs as class 1. Even though this results in an extremely high accuracy, the results are ultimately impractical because most, if not all, of class 1’s are categorized incorrectly. Therefore, we use two methods: we oversample the minority class and also try SMOTE (Synthetic Minority Over-sampling Technique) on the training set. In this way, our classification models are able to capture more variation in the data. The non-preprocessed testing set is then used to validate the models.
 
 
