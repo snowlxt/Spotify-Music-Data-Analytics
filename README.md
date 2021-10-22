@@ -36,7 +36,7 @@ Referring to the distribution of the attribute ‘popularity’, there are few s
 ## Sampling
 As with many other classification models, I run into a class imbalance problem. Since there are so many more instances of class 0 than of class 1, the models I train will tend to classify most songs as class 1. Even though this results in an extremely high accuracy, the results are ultimately impractical because most, if not all, of class 1’s are categorized incorrectly. Therefore, I use two methods: 
 * Oversampling
-* SMOTE (Synthetic Minority Over-sampling Technique)**
+* SMOTE (Synthetic Minority Over-sampling Technique)
 
 ## Models
 * **K-Nearest Neighbors**
